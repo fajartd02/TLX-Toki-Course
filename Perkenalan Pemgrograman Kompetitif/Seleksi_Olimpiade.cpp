@@ -9,7 +9,6 @@ struct olim{
     ll s3;
 };
 
-
 int main() {
     ll T;
     cin >> T;
@@ -44,6 +43,7 @@ int main() {
                 }
             }
         }   
+        
         // Debug
         // for(int i = 0 ; i < n ;i++){
         //     printf("%s %d %d %d\n", arr[i].nama, arr[i].s1, arr[i].s2, arr[i].s3);
@@ -61,8 +61,6 @@ int main() {
         if(valid == 0) {
             printf("TIDAK\n");
         }
-        
-        
     }
 
     return 0;
